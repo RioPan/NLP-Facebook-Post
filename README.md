@@ -1,5 +1,7 @@
 # NLP-Facebook-Post
 
+Technique used: RNN, LSTM, GRU, BERT+LSTM
+
 Background:
 
 As one of the largest social media websites in the world, Facebook is an attractive platform for businesses to reach their consumers. Almost all consumer-facing businesses have virtual presence on Facebook, in the form of Facebook business pages (e.g., see here for Target's Facebook business page). Everyday, Facebook users who visit these business pages generate a large amount of posts. These user posts may represent customer complains, questions, or appreciations directed towards the focal businesses.
