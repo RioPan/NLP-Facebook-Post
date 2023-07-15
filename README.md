@@ -12,7 +12,7 @@ For businesses, these user posts contain valuable information about customers' n
 Dataset and Task:
 
 
-For this assignment, you will use a labeled dataset named "FB_posts_labeled.txt". It is a tab-delimited file with the following fields:
+use a labeled dataset named "FB_posts_labeled.txt". It is a tab-delimited file with the following fields:
 
 postId: this is a unique identifier for each user post. There are 7961 posts in total;
 message: this is the text of each post;
@@ -21,4 +21,3 @@ Complaint: this is a binary (0/1) indicator of whether a post is a customer comp
 Feedback: this is a binary (0/1) indicator of whether a post is a customer feedback (e.g., questions and suggestions).
 Appreciation, Complaint, and Feedback are the three mutually exclusive content categories / classes in this dataset. They were labeled by humans, and the labeling isn't perfect (i.e., there may be ambiguous cases where the labels are not appropriate). However, for the sake of this assignment, let's treat them as the ground truth. Your task is to build a text classifier to predict the content category of a post based on its textual content.
 
-To evaluate the out-of-sample performance of your model, you will use it to make predictions for 2039 posts in an unlabeled dataset named "FB_posts_unlabeled.txt". It is also a tab-delimited file, but only has postId and message fields. I keep the ground truth labels for these posts in a private place, in order to objectively evaluate your model's performance. The performance metric I will use is averaged F-measure across the three categories.
